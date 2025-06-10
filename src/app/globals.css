@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
 @import "tailwindcss";
+
+* {
+  font-family: 'Geologica';
+}
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --text-freight: #00b658;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 100%;
 }
